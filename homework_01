@@ -1,0 +1,21 @@
+company = input("公司名称：")
+name = input("姓名：")
+sell = input("电话:")
+email = input("邮箱:")
+print('*'*50)
+print('{}'.format(company))
+print()
+print('{0}'.format(name))
+print()
+print('电话：%s ' % sell)
+print(f'邮箱：{email}')
+print('*'*50)
+
+**************************************************
+武昌首义学院
+
+朱银银
+
+电话：15377553496 
+邮箱：zyy15377553496@163.com
+**************************************************
